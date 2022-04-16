@@ -1,0 +1,216 @@
+body{
+    padding-left: 10%;
+    min-width: 1300px;
+
+}
+.container{
+    border-radius: 20px;
+    margin-bottom: 40px;
+    margin-top: 40px ;
+    width: 90%;
+    height: 200vh;
+    background-color: antiquewhite;
+    display: flex;
+    justify-content: space-evenly;
+  
+}
+.left-side{
+    border-bottom-left-radius: 20px;
+    border-top-left-radius: 20px;
+    background-color: rgb(47, 47, 126);
+    height: 200vh;
+    width: 30%;
+    display: block;
+}
+.right-side{
+    border-top-right-radius: 20px;
+    border-bottom-right-radius: 20px;
+    background-color: rgb(228, 251, 243);
+    height: 200vh;
+    width: 70%;
+}
+.foto{
+
+    width: 90%;
+    height: 20%;
+    margin-top: 2%;
+    margin-left: 5%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.foto img{
+    width: 200px;
+    border-radius: 50%;
+}
+.about-me{
+    
+    color: aliceblue;
+    width: 90%;
+    height: 35%;
+    margin-top: 2%;
+    margin-left: 5%;
+}
+p,a{
+    display: block;
+    font-size: 20px;
+    padding-bottom: 10px;
+    padding-top: 10px;
+    color: aliceblue;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size-adjust: 0.58;
+}
+.links{
+    width: 90%;
+    height: 18%;
+    margin-top: 2%;
+    margin-left: 5%;
+     
+}
+.languages{
+    width: 90%;
+    height: 15%;
+    margin-top: 2%;
+    margin-left: 5%;
+   
+}
+.divider{
+    margin-top: 30px;
+    margin-bottom: 20px;
+    background-color: white;
+    width: 100%;
+    opacity: 0.7;
+    height: 2px;
+}
+
+
+a:hover{
+    color: aqua;
+}
+.sign{
+    width: 60%;
+    height: 5%;
+    background-color: aliceblue;
+    display: flex;
+    justify-content: end;
+}
+.grey{
+    background-color: rgb(76, 59, 108);
+    height: 100%;
+    width: 20%;
+}
+h1{
+    margin-top: 40px;
+    padding: 10px;
+    font-size: 30px;
+    color: aliceblue;
+    
+}
+.head{
+
+   height: 100%;
+    height: 20%;
+    display: flex;
+    
+}
+.aducation{
+    padding: 40px;
+    width: 100%;
+    height: 30%;
+    display: flex;
+    justify-content: space-around;
+}
+.skills{
+    width: 100%;
+    height: 30%;
+}
+h2{
+
+    color:rgb(47, 47, 126);
+
+}
+.name{
+    font-size: 60px;
+    padding: 30px 40px;
+    display: inline-block;
+}
+.contact{
+    font-size: 20px;
+    margin: 60px 30px;
+    display: inline-block;
+}
+li{
+    padding: 5px;
+    display: inline;
+    font-size: 20px;
+}
+img{
+    border-radius: 50%;
+    width: 40px;
+    display: inline;
+    
+}
+.con{
+    display: flex;
+    align-items: center;
+    
+}
+h3{
+    font-size: 30px;
+}
+.class{
+    color: rgb(5, 5, 101);
+    font-size: 30px;
+    margin-top: 40px;
+}
+.cl{
+    padding: 0;
+    margin: 0;
+    color: gray;
+   
+}
+.right{
+    margin-top: 70px;
+}
+h4{
+    margin-top: 70px;
+    padding: 10px;
+    font-size: 30px;
+    color: rgb(5, 5, 101);
+}
+.dividerr{
+    margin-top: 30px;
+    margin-bottom: 20px;
+    background-color: rgb(5, 5, 101);
+    width: 100%;
+    opacity: 0.7;
+    height: 2px;
+}
+.skills{
+    
+    padding: 40px;
+    width: 100%;
+    height: 30%;
+    
+}
+.skill-box{
+    width: 90%;
+    height: 30%;
+    display: grid;
+    grid-template-rows: 1fr 1fr;
+}
+
+.sk{
+    font-size: 30px;
+    color: rgb(10, 10, 127);
+}
+
+@media (max-width: 650px){
+    li{
+        font-size: 10px;
+    }
+    .foto img{
+        width: 200px;
+    }
+    
+}
